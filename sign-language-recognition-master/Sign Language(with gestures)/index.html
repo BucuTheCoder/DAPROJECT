@@ -1,0 +1,47 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Language Recognition</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  
+  <script src="blabla.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
+ 
+</head>
+
+<body>
+ <h2>Welcome to</h2>
+  <h1>Sign Language Recognition</h1>
+  <button class="button" onclick="init(); this.style.display = 'none' " id="start"><span>START </span></button>
+  <div id="video">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <div id="result">
+    
+  </div>
+  <div id="results">
+      <div id="thankyou">
+      English: Thank You<p>   
+      Filipino: Salamat
+      </div>
+      <div id="goodbye">
+      English: Good Bye <p>Filipino: Paalam
+      </div>
+      <div id="goodmorning">
+      English: Good Morning<p> Filipino: Magandang Umaga
+      </div>
+      <div id="goodnight">
+      English: Good Night<p> Filipino: Magandang Gabi
+      </div>
+      <div id="goodafternoon">
+      English: Goodafternoon<p> Filipino: Magandang Hapon
+      </div>
+  <br>
+ 
+  <!-- <video id="container" autoplay="true"></video> -->
+
+  <!-- <script src="sketch.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-image: url('../style/bg.jpg');
+}
+
+video{
+height: 150;
+}
+.button {
+  margin-top: 10%;
+  margin-left: 20%;
+  border-radius: 4px;
+  background-color: #04AA6D;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 32px;
+  padding: 30px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#demo{
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  
+}
+
+#defaultCanvas0{
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  
+}
+#results{
+  float: right;
+
+}
+#thankyou,#goodmorning,#goodbye,#goodnight,#goodafternoon{
+  display: none;
+}
+ h2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+ }
+
+ h1{
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+ }
+
+ #video{
+  float: left;
+ }
+ }
+ #result{
+  float: right;
+  padding-left: 50%;
+
+ }
